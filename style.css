@@ -1,0 +1,171 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #d32f2f;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: #d32f2f;
+    border-radius: 5px;
+}
+
+.reserve-button {
+    background-color: #ffcc00;
+    color: black;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Section Styles */
+section {
+    padding: 40px;
+    text-align: center;
+    background: white;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #d32f2f;
+    font-size: 26px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #222;
+    color: white;
+    font-size: 14px;
+}
+
+/* About Us Page Styles */
+#about {
+    background-color: #fff5f5;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Menu Page Styles */
+#menu {
+    background-color: #fff;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* Contact Page Styles */
+#contact {
+    background-color: #fff5f5;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Reservation Page Styles */
+#reserve {
+    background-color: #fff;
+    text-align: center;
+    max-width: 700px;
+    height: auto;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+}
+/* Admin Panel Styles */
+#admin table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#admin th, #admin td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+#admin th {
+    background-color: #d32f2f;
+    color: white;
+}
+
+#admin button {
+    padding: 5px 10px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#admin button:first-child {
+    background-color: #28a745;
+    color: white;
+}
+
+#admin button:last-child {
+    background-color: #dc3545;
+    color: white;
+}
